@@ -1,0 +1,12 @@
+Bonjour, ici une petite notice d'utilisation de la calculatrice :
+
+[J'ai fais la calculatrice en JavaFX car on m'a dit que je pouvais la faire en JFrame ou en JavaFX.]
+
+La calculatrice peut faire des opérations à la suite comme : 5*6+9+7*8/112, en revanche elle ne comprend pas -2 ou +3, elle ne voit 
+le + et le - que comme des opérateurs et ne comprend pas qu'on puisse les considérés comme des signes.
+Il est possible de saisir les calculs en cliquant à l'aide de la souris ou bien de tapper sur le clavier, les lettres ne seront pas acceptées.
+Il est possible de supprimer le dernier character entré, mais seulement au clavier à l'aide de la touche supprimer (et non "suppr"), il n'est
+en revanche pas possible de valider le calcul avec la touche entrer, car le focus se fait sur la touche 1 du clavier, il sera donc necessaire
+d'appuyer sur la touche "=" du clavier ou de le faire avec la souris.
+
+A SAVOIR : Pour les division elle ne renvera que des valeur entière, elle effectuera une troncature et ne considérera que l'entier inférieur.
